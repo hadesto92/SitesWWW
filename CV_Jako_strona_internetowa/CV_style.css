@@ -1,0 +1,261 @@
+body, header, main, nav, footer{
+	
+	/*border: solid 1px black;*/
+	
+}
+
+body{
+	
+	height: 890px; 
+	width:620px; 
+	margin-left: auto; 
+	margin-right: auto;
+	font-family: Arial;
+	border: solid 3px black;
+	padding: 1%;
+	
+}
+
+header{
+	
+	height:10%; 
+	width:60%;
+	float: left;
+	
+}
+
+main{
+	
+	height:79%; 
+	width:60%;
+	float: left;
+	
+}
+
+nav{
+	
+	height:89%; 
+	width:39%;
+	float: right;
+	
+}
+
+footer{
+	
+	height:10%; 
+	width:100%;
+	clear:both;
+
+}
+
+table{
+	
+	 /*border: solid 3px black;*/
+	 width: 100%;
+	
+}
+
+td{
+	
+	line-height: 80%;
+	
+}
+
+td#naglowek2{
+	
+	padding-top:1%;
+	padding-bottom:1%;
+	
+}
+
+td#naglowek3{
+	
+	padding-top:4%;
+	padding-bottom:2%;
+	
+}
+
+.center{
+	
+	padding-left:3%;
+	
+}
+
+#imie_nazwisko{
+	
+	font-size:250%;
+	font-weight: bold;
+	text-align: justify;
+	padding-left: 15%;
+	
+}
+
+#kolor{
+	
+	color:#00b8dd;
+	
+}
+
+#tytul{
+	
+	width:50%;
+	float: left;
+	text-align: right;
+	font-size:130%;
+	font-weight: bold;
+	padding-left: 5%;
+	
+}
+
+#naglowek{
+	
+	font-size:115%;
+	font-weight: bold;
+	color:#00b8dd;
+	
+}
+
+#tresc{
+	
+	font-size:73%;
+	font-weight: bold;
+	
+}
+
+#tresc2{
+	
+	font-size:65%;
+	
+}
+
+#tresc3{
+	
+	font-size:75%;
+	
+}
+
+#zgoda{
+	
+	font-size:60%;
+	padding: 1%;
+	
+}
+
+#przycisk{
+	
+	margin: auto;
+	
+}
+
+#data{
+	
+	font-size:70%;
+	
+}
+
+#data2{
+	
+	font-size:60%;
+
+	
+}
+
+#objasnienie{
+	
+	font-size:65%;
+	margin: 0%;
+	
+}
+
+#kropka{
+	
+	display: block;
+	width:50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20%;
+	z-index: 1;
+	
+}
+
+#linia{
+	
+	z-index: -1;
+	
+}
+
+.toper{
+	
+	vertical-align: top;
+	
+}
+
+.linia{
+	
+	background-image: url("linia.png");
+	background-position: 22.2% 50%;
+	background-repeat: no-repeat;
+	background-size: 0.8% 98%;
+	
+	
+}
+
+div#facebook {
+	background-image: url("facebook.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width:125px;
+	height:35px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#facebook:hover {
+	background-image: url("facebook_hover.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width:125px;
+	height:35px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#github {
+	background-image: url("github.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width:125px;
+	height:35px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#github:hover {
+	background-image: url("github_hover.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width:125px;
+	height:35px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#linkedin {
+	background-image: url("linkedin.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width:125px;
+	height:35px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#linkedin:hover {
+	background-image: url("linkedin_hover.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width:125px;
+	height:35px;
+	margin-left: auto;
+	margin-right: auto;
+}

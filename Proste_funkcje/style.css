@@ -1,0 +1,29 @@
+#kontener{
+	background:pink;
+	width:800px;
+	height:1000px;
+	margin: 0 auto;
+}
+
+#baner{
+	background:blue;
+	background-image: url("baner.jpg");
+	width:800px;
+	height:100px;
+	margin: 0 auto;
+}
+
+#menu{
+	background:yellow;
+	width:250px;
+	height:900px;
+	float:left;
+}
+
+#tresc{
+	background:green;
+	width:550px;
+	height:900px;
+	float:left;
+	
+}

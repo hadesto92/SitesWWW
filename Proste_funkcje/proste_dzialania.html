@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>PROSTE DZIAŁANIA</title>
+		<link rel="Stylesheet" type="text/css" href="style.css">
+		<meta charset="utf-8">
+	</head>
+	<script type="text/javascript" src="proste_dzialania.js"></script>
+	<body>
+		<div id="kontener">
+			<div id="baner">
+				<a href="index.html"><img src="baner.jpg" alt="BANER" /></a>
+			</div>
+			<div id="menu">
+				<p>Menu</p>
+				<a href="proste_dzialania.html">- proste działania</a><br>
+				<a iframe="tresc" href="potegowanie.php">- potęgowanie</a><br>
+			</div>
+			<div id="tresc">
+				<h1>PROSTE DZIAŁANIA</h1>
+				<form name="formularz">
+				
+					Podaj pierwszą liczbę:<input type="text" name="a"/> <br>
+					Podaj drugą liczbę:<input type="text" name="b"/> <br>
+					
+					<br>
+					
+					<input type="button" value="Dodawanie" onclick="dodawanie()"/>
+					<input type="button" value="Odejmowanie" onclick="odejmowanie()"/>
+					<input type="button" value="Mnożenie" onclick="mnozenie()"/>
+					<input type="button" value="Dzielenie" onclick="dzielenie()"/>
+				</form>
+				
+				<div id=wynik></div>
+			</div>
+		</div>
+	</body>
+</html>
